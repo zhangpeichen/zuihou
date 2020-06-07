@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{
+			padding: 0;
+            margin: 0;
+		}
+		li,ol,ul{
+			list-style: none;
+		}
+		a{
+			text-decoration: none;
+		}
+		.clear::after{
+			content: "";
+			display: block;
+			height: 0;
+			clear: both;
+		}
+		.header-warp{
+			height: 45px;
+			background-color: #444;
+		}
+        .header{
+        	width: 1200px;
+        	margin: 0 auto;
+        }
+        .header-right{
+        	float: right;
+        	height: 45px;
+        	line-height: 45px;
+        }
+        .header span{
+        	color: #fff;
+        	font-size: 20px;
+        	margin-right: 40px;
+        }
+        .header img{
+        	vertical-align: middle;
+        	margin-right: 15px;
+        }
+        .header a{
+        	color: #fff;
+        	font-size: 14px;
+        	margin-right: 25px;
+        }
+        .nav-warp{
+			width: 100%;
+			margin: 0 auto;
+			height: 80px;
+			background-color: #fe705a;
+		}
+		.logo{
+			margin-top: 13px;
+		}
+		.nav{
+			float: right;
+			line-height: 76px;
+		}
+		.nav a{
+			color: #000;
+			margin-left: 24px;
+			width: 80px;
+			display: inline-block;
+			text-align: center;
+			font-size: 20px;
+			border-bottom: 4px solid#FFFAFA;
+			margin-right: 40px;
+		}
+		a:hover 
+		{
+			color: #00a4ff;
+			border-bottom: 3px solid #00a4ff;
+			font-size: 20px;
+		}
+		.banner{
+		    height: 625px;
+		    background-color:#1c036c; 
+	    }
+	    .banner-in{
+		    background-color: pink;
+		    height: 420px;
+		    background: url(3.png) 0 0 no-repeat;
+	    }
+	    .slidebar li a:hover{
+		    color: #00a4ff;
+	    }
+	    .slidebar li a{
+		    color: #fe705a;
+		    font-size: 16px;
+		    padding: 0 20px;
+		    display: block;
+		    height: 45px;
+		    line-height: 45px;
+	    }
+	    .slidebar li a span{
+		    float: right;
+		    font-family: arial;
+	    }
+	    .banner-in img{
+	    	vertical-align: middle;
+	    	text-align: center;
+	    	margin-left: 425px;
+	    }
+	    .search{
+		width: 383px;
+		height: 35px;
+		border: 1px solid #00a4ff;
+		float: left;
+	}
+	.search input[type=text]{
+		width: 335px;
+		height: 35px;
+		padding-left: 20px;
+		float: left;
+	}
+	</style>
+</head>
+<body>
+	<div class="header-warp">
+		<div class="header">
+			<div class="header-right">
+				<img src="1.png" alt="">
+				<span>156-741-8625</span>
+				<a href="#">登入</a>
+				<a href="#">注册</a>
+			</div>
+			<div class="search">
+	<form action="">
+	<input type="text"></input>
+	<input type="submit" value=""></input>
+	</form>
+		
+	</div>	
+		</div>
+	</div>
+	<div class="nav-warp">
+		<img class="logo" src="3.png" alt="">
+		<div class="nav">
+			<a href="#">首页</a>
+			<a href="#">疫情实况</a>
+			<a href="#">大国外交</a>
+			<a href="#">科技强国</a>
+			<a href="#">在线教育</a>
+		</div>
+	</div>
+	<div class="banner">
+	<div class="banner-in container">
+		<img src="4.jpg" alt="">
+		<div class="slidebar">
+			<ul>
+				<li><a href="#">种族歧视： 专家认为，黑人遭受暴力执法，归根结底是种族歧视问题。明尼苏达州刑事事务局于美国当地时间5月29日逮捕沙文，同时指控其犯有三级谋杀罪和二级故意杀人罪。而和沙文一起执法的另三位警员目前尚未被拘捕或受到指控。 <span>></span></a></li>
+				<li><a href="#">白宫被围 ：      根据环球网的相关报道，在白宫被民众包围的时候，总统特朗普曾在晚上躲进白宫地下室，此后特朗普却表示自己只是在白天进入这个地堡，进行了短暂的视察，认为美国媒体的报道是不客观的并且虚假的。 <span>></span></a></li>
+				<li><a href="#">黑人之死： 【 美民众发起装死抗议】4日，在美国宾夕法尼亚州费城艺术博物馆前的石阶上，成百上千抗议者躺倒模仿死尸。"装死抗议"持续了8分46秒，与弗洛伊德遭跪压锁喉的时长相同。期间，抗议者集体高呼"I can't breathe"(我无法呼吸)。  <span>></span></a></li>
+				<li><a href="#">总统推特 ：“特朗普打破了个人发推记录：24小时内发推以及转推数达到200条。”《华盛顿时报》6日以此为题记录下了特朗普的这一“记录”。报道注意到，特朗普5日刷新记录，正处于新冠肺炎疫情危机与黑人男子弗洛伊德遭暴力执法     <span>></span></a></li>
+				<li><a href="#">习近平发言  ：大疫当前，团结合作才是正道。”
+　　6月5日，习近平主席分别同法国总统马克龙、哥斯达黎加总统阿尔瓦拉多通电话。
+　　当前，全球疫情扩散蔓延势头尚未得到有效遏制，加强国际抗疫合作，维护全球公共卫生安全尤为重要。  <span>></span></a></li>
+				<li><a href="#">美国&加拿大： “双重犯罪”问题，也就是美国对孟晚舟的犯罪指控，在加拿大是否也属于犯罪。
+依据《美加引渡条约》，被请求引渡人所犯罪行， 必须满足“双重犯罪”原则，否则，不予引渡。 
+特朗普上台后，单方面退出六国与伊朗签订的《伊核协议》。  <span>></span></a></li>
+				<li><a href="#">疫情&自由  ：不知不觉间从疫情爆发开始已经足足过去了小半年时间，本以为疫情可以很快过去，但谁也没想到疫情竟然会越来越严重，截止目前为止全球感染人数已经成功突破了600万。更重要是这个数据每天还在飞速增长<span>></span></a></li>
+				<li><a href="#">-------------------------------------------------------------------------------------------------------------苏ICP备份000号、2014-2017 @苏州樱花新闻办版权所有------------------------------------------------------------------------------------------------------------------------  <span>></span></a></li>
+				<li><a href="#">-------------------------------------------------------------------------------------------------------------技术支持 首都富强科技------------------------------------------------------------------------------------------------------------------------   <span>></span></a></li>
+			</ul>
+
+		</div>
+	</div>
+
+</body>
+</html>
